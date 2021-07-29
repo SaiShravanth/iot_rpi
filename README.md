@@ -31,9 +31,10 @@ raspistill -o pic.jpg
 
 ## This will capture the image after 5 seconds. You will also see a preview while capturing the picture or video if you are using an external or any other device connected through the HDMI cable. If you are controlling your Raspberry pi through the Remote connection, then you will not see the preview window. If you want to capture the picture after some specific time, then use the following command. Enter the time in milliseconds after ‘-t’.
 
-### If you just want the preview. Then use the below command
+
 raspistill -t 10000 -o pic1.jpg       
 
+#### If you just want the preview. Then use the below command
 raspistill -p –o
 
 
